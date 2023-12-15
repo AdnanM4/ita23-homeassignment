@@ -1,0 +1,149 @@
+html{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.root {
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right {
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-top {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 5px solid black;
+    box-sizing: border-box;
+    
+}
+
+.left-bottom {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-top-image {
+    width: 50%;
+}
+
+.left-top-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.left-bottom-text {
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.right-top {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.right-middle {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right-top-wrapper {
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.right-top-a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.right-middle-text {
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.right-middle-image {
+    width: 40%;
+}
+
+.right-bottom-text {
+    color: white;
+
+}
+
+.icon {
+    width: 30px;
+}
+
+.right-bottom-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-right-left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-right-right {
+    width: 35%;
+}
+
+.menu-right-left-row {
+    font: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
